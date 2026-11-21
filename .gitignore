@@ -18,4 +18,9 @@ notion-obsidian/logs/
 notion-obsidian/backup/
 notion-obsidian/blobs/
 notion-obsidian/approvals/
+# runtime output that may contain real Notion titles/IDs or vault copies
+notion-obsidian/evidence/
+notion-obsidian/plugins/
+notion-obsidian/rehearsal/
+notion-obsidian/rollback/
 notion-migration/data/
