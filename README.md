@@ -5,6 +5,7 @@ AI_Notion_Obsidian AI notion 自动同步 obsidian 与 obsidian 协调同步 not
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![Platform Linux / systemd](https://img.shields.io/badge/platform-Linux%20%2F%20systemd-FCC624?logo=linux&logoColor=black)
 ![Notion API 2026-03-11](https://img.shields.io/badge/Notion%20API-2026--03--11-000000?logo=notion&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 一套运行在 Linux 上的 Python 工具：把 Notion 工作区按原有层级、顺序和附件**定时单向导出**到 Obsidian 库；Obsidian 中的修改则先生成预览，**只有工作区所有者本人在自己的终端确认后**才写回 Notion，写入后立即读回并校验。
 
@@ -317,7 +318,7 @@ WORK 由 `tools/` 的上级目录推出（不解析符号链接），所以请�
 <a id="license"></a>
 ## 许可证
 
-本仓库目前**没有包含许可证文件**，所有者尚未选择许可证。在添加 LICENSE 之前，依照著作权法默认保留所有权利：可以浏览代码和文档，但复制、修改、再分发或用于其他项目前请先征得所有者同意。
+本项目采用 [MIT 许可证](LICENSE) 发布，Copyright (c) 2026 shenchuangwl。可以自由使用、复制、修改、合并、发布和再分发，只需在副本中保留版权声明和许可声明；软件按“原样”提供，不附带任何担保。
 
 <a id="credits"></a>
 ## 致谢与作者
