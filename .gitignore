@@ -1,0 +1,21 @@
+# caches / build artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# local run data and environment-specific files (never commit)
+*.env
+.env*
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+notion-obsidian/config/
+notion-obsidian/state/
+notion-obsidian/snapshots/
+notion-obsidian/staging/
+notion-obsidian/reports/
+notion-obsidian/logs/
+notion-obsidian/backup/
+notion-obsidian/blobs/
+notion-obsidian/approvals/
+notion-migration/data/

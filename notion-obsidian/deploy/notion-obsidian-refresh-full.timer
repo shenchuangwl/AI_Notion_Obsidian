@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly full Notion -> Obsidian refresh (safety net)
+
+[Timer]
+OnCalendar=Sun *-*-* 05:30:00
+RandomizedDelaySec=15min
+Persistent=true
+Unit=notion-obsidian-refresh@full.service
+
+[Install]
+WantedBy=timers.target

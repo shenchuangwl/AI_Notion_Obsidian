@@ -1,0 +1,11 @@
+[Unit]
+Description=Notion -> Obsidian one-way refresh (%i) for /data120/Obsidian/Godcreate
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/data120/Obsidian/notion-obsidian/tools
+# %i = incremental | full ; tokens are read by the tool from ~/.config/notion-migrate/.env (chmod 600), never logged
+ExecStart=/usr/bin/python3 -I /data120/Obsidian/notion-obsidian/tools/refresh.py --mode %i
+TimeoutStartSec=6h
+Nice=10

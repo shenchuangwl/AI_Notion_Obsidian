@@ -1,0 +1,6 @@
+# runtime
+requests>=2.31
+PyYAML>=6.0
+markdown-it-py>=3.0
+# tests (tools/tests)
+pexpect>=4.9

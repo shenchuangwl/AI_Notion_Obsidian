@@ -1,0 +1,11 @@
+[Unit]
+Description=Incremental Notion -> Obsidian refresh every 6 hours (00:30, 06:30, 12:30, 18:30)
+
+[Timer]
+OnCalendar=*-*-* 00/6:30:00
+RandomizedDelaySec=10min
+Persistent=true
+Unit=notion-obsidian-refresh@incremental.service
+
+[Install]
+WantedBy=timers.target
